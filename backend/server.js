@@ -8,7 +8,7 @@ import mongoose from 'mongoose';
 import router from './router';
 var cors = require('cors');
 mongoose
-    .connect('mongodb+srv://admin-roshini:roshini1999@cluster0.oz4rg.mongodb.net/movieticket?retryWrites=true&w=majority', {
+    .connect('mongodb+srv://admin-<username>:<password>@cluster0.oz4rg.mongodb.net/<dbname>?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useCreateIndex: true,
         useUnifiedTopology: true,
